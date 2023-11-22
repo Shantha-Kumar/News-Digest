@@ -1,6 +1,6 @@
 import ssl, smtplib
 import os
-def send_mail(message):
+def send_mail(message: object) -> object:
     host = "smtp.gmail.com"
     port = 465
 
